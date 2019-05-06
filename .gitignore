@@ -1,18 +1,45 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+#image files
+*.ppm
+*.png
+*.jpg
+*.jpeg
+*.gif
 
-# Other files and folders
-.settings/
+#temp files
+*~
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.pyc
+*.class
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
 # Executables
-*.swf
-*.air
-*.ipa
-*.apk
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Debug files
+*.dSYM/
+*.su
